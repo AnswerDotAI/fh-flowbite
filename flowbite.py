@@ -12,7 +12,7 @@ SvgAccordian = Svg(
 
 def AccordionItem(id, title, c):
     heading_id,body_id = f"{id}-heading", f"{id}-body"
-    if isinstance(c, XT): c = (c,)
+    if isinstance(c, FT): c = (c,)
     return (H2(
         Button(
             Span(title),
