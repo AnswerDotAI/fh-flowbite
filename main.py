@@ -31,4 +31,4 @@ def get():
         Script(src=f"{flowurl}/flowbite.min.js")
     )
 
-run_uv()
+serve()
